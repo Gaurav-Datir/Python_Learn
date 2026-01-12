@@ -50,3 +50,4 @@ async def get_weather(message: cl.Message):
 """
 
     await cl.Message(content=result).send()
+
