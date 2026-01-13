@@ -20,5 +20,26 @@ button {
   height: 48px;
   width: auto;
 }
-
-
+.cl-message-user {
+  background-color: #A5D6A7 !important;
+}
+.cl-message-assistant {
+  background-color: #C8E6C9 !important;
+}
+.cl-input textarea {
+  background-color: #E8F5E9 !important;
+}
+.cl-input textarea {
+  border: 2px solid #388E3C !important;
+}
+.cl-input textarea:focus {
+  border: 2px solid #1B5E20 !important;
+  box-shadow: 0 0 5px #1B5E20 !important;
+}
+.cl-button {
+  background-color: #388E3C !important;
+  color: white !important;
+}
+.cl-button:hover {
+  background-color: #1B5E20 !important;
+}
