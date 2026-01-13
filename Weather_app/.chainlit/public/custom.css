@@ -1,0 +1,24 @@
+/* Change chat background */
+body {
+  background-color: #0f172a;
+}
+
+/* Chat bubbles */
+body {
+  background-color: #F1F8E9 !important;
+}
+
+.cl-header {
+  background-color: #2E7D32 !important;
+  color: white !important;
+}
+
+button {
+  background-color: #388E3C !important;
+}
+.cl-logo img {
+  height: 48px;
+  width: auto;
+}
+
+

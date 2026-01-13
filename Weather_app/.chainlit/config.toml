@@ -88,8 +88,16 @@ reaction_on_message_received = false
     allowed_executables = [ "npx", "uvx" ]
 
 [UI]
-# Name of the assistant.
 name = "Assistant"
+logo = "/public/logo.png"
+custom_css = "/public/style.css"
+
+[UI.theme]
+primaryColor = "#2E7D32"
+backgroundColor = "#F1F8E9"
+secondaryBackgroundColor = "#C8E6C9"
+textColor = "#1B5E20"
+font = "Inter"
 
 # default_theme = "dark"
 
