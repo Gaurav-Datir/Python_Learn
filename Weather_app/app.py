@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_KEY = os.getenv("OPENWEATHER_API_KEY") # Replace with your actual environment variable name
+API_KEY = os.getenv("") # Replace with your actual environment variable name
 
 @cl.on_chat_start
 async def start():
