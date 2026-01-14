@@ -5,10 +5,10 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_KEY = os.getenv("") # Replace with your actual environment variable name
+API_KEY = os.getenv("OPENWEATHER_API_KEY") # Replace with your actual environment variable name
 cl
 @cl.on_chat_start
-async def start():
+async def start(): 
     await cl.Message(
         content="🌤️ Welcome to Weather App!\n\nType a city name to get current weather."
     ).send()
@@ -22,7 +22,7 @@ async def get_weather(message: cl.Message):
         return
 
     url = (
-        f"" # OpenWeatherMap API endpoint
+        f"https://api.openweathermap.org/data/2.5/weather" # OpenWeatherMap API endpoint
         f"?q={city}&appid={API_KEY}&units=metric"
     )
 
