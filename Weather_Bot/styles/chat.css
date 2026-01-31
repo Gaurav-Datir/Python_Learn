@@ -1,0 +1,15 @@
+.cl-message {
+  border-radius: 18px;
+  padding: 14px;
+  font-size: 15px;
+}
+
+.cl-user-message {
+  background: #2c2f36;
+  color: white;
+}
+
+.cl-bot-message {
+  background: #eef2f6;
+  color: #111;
+}
